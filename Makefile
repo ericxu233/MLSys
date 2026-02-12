@@ -2,7 +2,7 @@ CXX ?= g++
 CXXFLAGS ?= -std=c++20 -O2 -Wall -Wextra -Wpedantic
 
 TARGET := mlsys
-SRC := src/main.cpp src/problem_json.cpp
+SRC := src/main.cpp src/problem_json.cpp src/graph.cpp
 
 .PHONY: all clean
 
